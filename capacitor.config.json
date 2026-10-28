@@ -1,0 +1,9 @@
+{
+  "appId": "com.vk4nu.pixelvault",
+  "appName": "Pixel Vault",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

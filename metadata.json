@@ -1,0 +1,7 @@
+{
+  "name": "Pixel Vault",
+  "description": "Secure biometric personal vault for Google Pixel to store driver's licenses, health insurance cards, and passports with hardware-grade zero-knowledge encryption.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

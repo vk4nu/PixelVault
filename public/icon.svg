@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E232A" />
+      <stop offset="100%" stop-color="#0F1115" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#A8C7FA" />
+      <stop offset="100%" stop-color="#6DD58C" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2D333B" />
+      <stop offset="100%" stop-color="#1B1F24" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Outer Rounded Container -->
+  <rect width="512" height="512" rx="120" fill="url(#bgGrad)" />
+  
+  <!-- Subtle Material You Inner Glow -->
+  <circle cx="256" cy="256" r="210" fill="none" stroke="#373E47" stroke-width="2" opacity="0.6"/>
+  
+  <!-- Protective Shield -->
+  <path d="M 256 96 C 330 96 390 128 390 128 C 390 280 290 380 256 416 C 222 380 122 280 122 128 C 122 128 182 96 256 96 Z" 
+        fill="url(#shieldGrad)" stroke="url(#accentGrad)" stroke-width="8" stroke-linejoin="round" />
+  
+  <!-- ID Card Overlay Outline inside Shield -->
+  <rect x="180" y="180" width="152" height="96" rx="14" fill="#222831" stroke="#A8C7FA" stroke-width="4" />
+  <circle cx="215" cy="216" r="14" fill="#A8C7FA" opacity="0.8"/>
+  <rect x="242" y="206" width="68" height="6" rx="3" fill="#D3E3FD" opacity="0.9" />
+  <rect x="242" y="220" width="46" height="6" rx="3" fill="#8E9196" />
+  
+  <!-- Biometric Fingerprint Rings Arc -->
+  <path d="M 230 330 C 230 310 282 310 282 330 C 282 355 256 360 256 375" fill="none" stroke="#6DD58C" stroke-width="5" stroke-linecap="round" />
+  <path d="M 215 330 C 215 295 297 295 297 330 C 297 370 270 380 270 395" fill="none" stroke="#6DD58C" stroke-width="4.5" stroke-linecap="round" opacity="0.75" />
+  <circle cx="256" cy="336" r="2.5" fill="#6DD58C" />
+</svg>

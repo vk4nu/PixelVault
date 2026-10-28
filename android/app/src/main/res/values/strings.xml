@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Pixel Vault</string>
+    <string name="title_activity_main">Pixel Vault</string>
+    <string name="package_name">com.vk4nu.pixelvault</string>
+    <string name="custom_url_scheme">com.vk4nu.pixelvault</string>
+</resources>
